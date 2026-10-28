@@ -1,0 +1,9 @@
+{
+  "name": "MorkhallaProgressionScaling",
+  "version_number": "0.1.0",
+  "website_url": "https://github.com/JonasDe/MorkhallaProgressionScaling",
+  "description": "Deep North not hard enough? Every Morkhalla you clear makes it harder: more and bigger spawns, more stars, fuller Morkhallas and invasions, and Gammeltrolls at each new invasion. Fully configurable.",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.2351"
+  ]
+}
