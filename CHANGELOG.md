@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.1
+
+- README: where the config file is, how to edit it, its format, every setting, example presets,
+  and which settings the server decides for everyone. No gameplay changes.
+
 ## 0.1.0
 
 - First release. Every cleared Morkhalla is a step (counted when its ice starts a Jotunn
