@@ -35,11 +35,15 @@ With the default settings:
   spawn once, never respawn, and stay until killed.
 
 Only hostile creatures are scaled: seals, fish and the invasion's meteors stay vanilla, and so
-does anything in `ExcludedCreatures` (default: `Moose`). Health and damage stay vanilla. Raid
+does anything in `ExcludedCreatures` (default: Moose, Jotun Witches and Barka). Health and damage stay vanilla. Raid
 events are not changed at all.
 
 Works alongside spawn and raid config mods: whatever they set is the base this mod multiplies,
 and it never overwrites their values.
+
+Group sizes and "how many at once" are rounded at random, so the average matches the multiplier:
+at 1.5x a creature that normally comes alone shows up alone half the time and in a pair the other
+half, instead of always in pairs.
 
 ## Configuration
 
@@ -73,7 +77,7 @@ GammeltrollsPerStep = 1
 
 [2 - General]
 Enabled = true
-ExcludedCreatures = Moose
+ExcludedCreatures = Moose, JotunWitch, Barka
 ```
 
 ### Settings
@@ -85,7 +89,7 @@ ExcludedCreatures = Moose
 | 1 - Steps | `StarChancePerStep` | 5 | Percentage points of star chance added per step (vanilla is about 10%) |
 | 1 - Steps | `GammeltrollsPerStep` | 1 | Gammeltrolls per step at each new invasion (1, 2, 3) |
 | 2 - General | `Enabled` | true | Turns the mod on or off |
-| 2 - General | `ExcludedCreatures` | Moose | Creatures never scaled, comma separated prefab names (e.g. `Moose,Barka`) |
+| 2 - General | `ExcludedCreatures` | Moose, JotunWitch, Barka | Creatures never scaled, comma separated prefab names |
 | 2 - General | `LogDetails` | false | Writes what gets scaled to the BepInEx log, for testing |
 | 3 - Gammeltrolls | `MinDistance` / `MaxDistance` | 15 / 30 | How far from the ice the Gammeltrolls are placed, in metres |
 

@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.1.2
+
+- Group sizes and "how many at once" are now rounded at random, so the average matches the
+  multiplier. Before, a creature that normally comes alone was always doubled at 1.5x (Jotun
+  Witches always in pairs); now it comes alone half the time and in a pair the other half.
+- Jotun Witches (JotunWitch) and Barka are excluded by default, next to Moose. Configs still on
+  the old default (`Moose`) are updated automatically; edited lists are left alone.
+- Spawn areas that only spawn excluded creatures stay vanilla.
+
 ## 0.1.1
 
 - README: where the config file is, how to edit it, its format, every setting, example presets,
