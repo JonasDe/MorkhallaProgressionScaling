@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.3
+
+- Settings can be changed while the game or server runs: save the config file and the mod reloads
+  it within about a second. On a server, the new settings reach every player right away. No
+  restart needed.
+
 ## 0.1.2
 
 - Group sizes and "how many at once" are now rounded at random, so the average matches the

@@ -61,7 +61,8 @@ BepInEx/config/com.jonasd.valheim.morkhallaprogressionscaling.cfg
   folder. Open the file with any text editor.
 - **Dedicated server**: edit the same file in the server's `BepInEx/config` folder.
 
-Restart the game (or server) after editing the file.
+Changes apply while the game or server runs: save the file and the mod reloads it within about
+a second (a server then sends the new settings to every player). No restart needed.
 
 ### Format
 

@@ -1,6 +1,6 @@
 {
   "name": "MorkhallaProgressionScaling",
-  "version_number": "0.1.2",
+  "version_number": "0.1.3",
   "website_url": "https://github.com/JonasDe/MorkhallaProgressionScaling",
   "description": "Deep North not hard enough? Every Morkhalla you clear makes it harder: more and bigger spawns, more stars, fuller Morkhallas and invasions, and Gammeltrolls at each new invasion. Fully configurable.",
   "dependencies": [
